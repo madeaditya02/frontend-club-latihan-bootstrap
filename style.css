@@ -1,0 +1,85 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
+:root {
+  --primary-color: #F53838;
+  --darker-primary-color: #D83232;
+  --dark-primary-color: #C02C2C;
+  --light-primary-color: #FFECEC;
+}
+.btn-main {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.btn-main:hover {
+  background-color: var(--darker-primary-color);
+  color: #fff;
+}
+.btn-main:active {
+  background-color: var(--dark-primary-color);
+  color: #fff;
+}
+.btn-outline-main {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.btn-outline-main:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+#navbar, #hero, #about {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#navbar {
+  padding: 30px 0;
+}
+#navbar .brand {
+  font-size: 20px;
+  font-weight: 500;
+}
+#navbar .brand span {
+  font-weight: 700;
+}
+#navbar .navbar-collapse {
+  padding-left: 120px;
+}
+
+#hero {
+  padding-top: 70px;
+}
+#hero .tagline {
+  font-weight: 500;
+}
+#hero .tagline span {
+  font-weight: 700;
+}
+#hero .description span {
+  font-weight: 500;
+}
+#hero .btn-main {
+  width: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+#about {
+  margin-top: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#about .icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: var(--light-primary-color);
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about h3 {
+  font-weight: 700;
+}
